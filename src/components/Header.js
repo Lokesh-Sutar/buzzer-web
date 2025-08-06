@@ -29,7 +29,7 @@ export default function Header({
     <header>
       <Navbar>
         <Navbar.Brand>
-          buzzer-web
+          'buzzer-web'
         </Navbar.Brand>
         <div className="nav-buttons">
           {!isNil(sound) ? (
