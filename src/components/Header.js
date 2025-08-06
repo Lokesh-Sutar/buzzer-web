@@ -46,7 +46,7 @@ export default function Header({
     <header>
       <Navbar>
         <Navbar.Brand>
-          <Logo /> Multibuzzer
+          <Logo /> buzzer-web
         </Navbar.Brand>
         <div className="nav-buttons">
           {!isNil(sound) ? (

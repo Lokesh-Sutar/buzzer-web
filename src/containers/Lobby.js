@@ -4,7 +4,6 @@ import { useLocation, useHistory } from 'react-router-dom';
 import { get } from 'lodash';
 import { joinRoom, getRoom, createRoom } from '../lib/endpoints';
 import Header from '../components/Header';
-import Footer, { FooterSimple } from '../components/Footer';
 
 const ERROR_TYPE = {
   emptyCode: 'emptyCode',
@@ -199,27 +198,6 @@ export default function Lobby({ setAuth }) {
     </Form>
   );
 
-  const touts = (
-    <div className="touts">
-      <div>
-        <h4>Simple multiplayer buzzer system</h4>
-        <p>Host a room and invite up to 200 people to join</p>
-      </div>
-      <div>
-        <h4>Join on any device</h4>
-        <p>
-          Use your computer, smartphone, or tablet to join and start buzzing
-        </p>
-      </div>
-      <div>
-        <h4>Free to use</h4>
-        <p>
-          Perfect for online quiz bowl, trivia night, or a classroom activity
-        </p>
-      </div>
-    </div>
-  );
-
   return (
     <main id="lobby">
       <section className="primary d-none d-md-flex">
@@ -228,9 +206,6 @@ export default function Lobby({ setAuth }) {
             <Header />
             <section className="container-half">{touts}</section>
           </div>
-          <section className="container-half">
-            <FooterSimple />
-          </section>
         </div>
         <div id="lobby-right">
           <section className="container-half">{form}</section>
@@ -242,7 +217,6 @@ export default function Lobby({ setAuth }) {
         <div className="divider" />
         <Container className="container-mobile">{touts}</Container>
       </section>
-      <Footer mobileOnly />
     </main>
   );
 }

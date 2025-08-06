@@ -1,9 +1,9 @@
 {
-  "name": "multibuzzer",
+  "name": "buzzer-web",
   "version": "0.1.0",
-  "author": "iamwillsun@gmail.com",
-  "license": "MIT",
-  "repository": "https://github.com/wsun/multibuzzer",
+  "author": "sutarlokesh82@gmail.com",
+  "license": "ZCOER",
+  "repository": "https://github.com/lokesh-sutar/buzzer-web",
   "engines": {
     "node": "20.12.2"
   },
