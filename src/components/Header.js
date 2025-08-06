@@ -6,7 +6,7 @@ import { leaveRoom } from '../lib/endpoints';
 
 function Logo({ size = 25 }) {
   return (
-    <img id="logo" src='public/favicon.png' />
+    <img·id = "logo"·src = "public/favicon.png"·/>
   );
 }
 
