@@ -6,12 +6,18 @@ import { leaveRoom } from '../lib/endpoints';
 
 function Logo({ size = 25 }) {
   return (
-    <img
-      src="/favicon.png"
-      alt="Buzzer Logo"
+    <svg
       width={size}
       height={size}
-    />
+      viewBox="0 0 95 95"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="20" cy="20" r="20" fill="#2887acff" />
+      <circle cx="75" cy="20" r="20" fill="#398129ff" />
+      <circle cx="20" cy="75" r="20" fill="#35b68dff" />
+      <circle cx="75" cy="75" r="20" fill="#e5f534ff" />
+    </svg>
   );
 }
 
