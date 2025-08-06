@@ -4,12 +4,6 @@ import { isNil } from 'lodash';
 import { useHistory } from 'react-router';
 import { leaveRoom } from '../lib/endpoints';
 
-function Logo({ size = 25 }) {
-  return (
-    <img·id = "logo"·src = "public/favicon.png"·/>
-  );
-}
-
 export default function Header({
   auth = {},
   clearAuth,
@@ -35,7 +29,7 @@ export default function Header({
     <header>
       <Navbar>
         <Navbar.Brand>
-          <Logo /> buzzer-web
+          buzzer-web
         </Navbar.Brand>
         <div className="nav-buttons">
           {!isNil(sound) ? (
