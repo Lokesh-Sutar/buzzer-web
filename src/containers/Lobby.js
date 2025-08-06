@@ -214,7 +214,6 @@ export default function Lobby({ setAuth }) {
         <Header />
         <Container className="container-mobile">{form}</Container>
         <div className="divider" />
-        <Container className="container-mobile">{touts}</Container>
       </section>
     </main>
   );
