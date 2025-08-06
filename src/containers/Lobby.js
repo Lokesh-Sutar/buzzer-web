@@ -204,7 +204,6 @@ export default function Lobby({ setAuth }) {
         <div id="lobby-left">
           <div>
             <Header />
-            <section className="container-half">{touts}</section>
           </div>
         </div>
         <div id="lobby-right">
